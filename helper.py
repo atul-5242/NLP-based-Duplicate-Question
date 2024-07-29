@@ -6,6 +6,9 @@ from nltk.corpus import stopwords
 import pickle
 import numpy as np
 
+# Download the NLTK stopwords dataset if not already present
+nltk.download('stopwords')
+
 cv = pickle.load(open('cv.pkl','rb'))
 
 

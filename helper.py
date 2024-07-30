@@ -2,6 +2,7 @@ import re
 from bs4 import BeautifulSoup
 import distance
 from fuzzywuzzy import fuzz
+import nltk
 from nltk.corpus import stopwords
 import pickle
 import numpy as np
